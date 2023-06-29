@@ -40,6 +40,5 @@ public class Client {
         String numStr = Files.lines(path).findFirst().orElse("0");
         System.out.println("总票数：" + numStr);
 
-        System.out.println("-------------------------");
     }
 }
